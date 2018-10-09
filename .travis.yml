@@ -1,0 +1,19 @@
+language: php
+php:
+    - '7.1'
+    - '7.2'
+
+cache:
+    directories:
+        - ~/.composer/cache/files
+
+before_install:
+    - phpenv config-rm xdebug.ini
+
+install:
+    - travis_retry composer self-update
+    - travis_retry composer install --no-interaction --no-suggest
+
+script:
+    # @todo: coding standard
+    - ./bin/phpunit

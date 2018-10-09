@@ -1,0 +1,37 @@
+{
+    "user": "Vincent van Gogh",
+    "id": "user_123",
+    "products": {
+        "id_1": {
+            "name": "Wheatfield with Crows",
+            "slug": "wheatfield-with-crows",
+            "url": "http://e3.link/products/wheatfield-with-crows",
+            "created_at": "1890-07-10",
+            "transactions": {
+                "tx_100": {
+                    "price": "200",
+                    "purchased_at": "2000-01-01",
+                    "purchased_by": "user_146"
+                },
+                "tx_201": {
+                    "price": "620",
+                    "purchased_at": "2002-03-04",
+                    "purchased_by": "user_213"
+                }
+            }
+        },
+        "id_23": {
+            "name": "Sunflowers",
+            "slug": "sunflowers",
+            "url": "http://e3.link/products/sunflowers",
+            "created_at": "1889-08-08",
+            "transactions": {
+                "tx_302": {
+                    "price": "320",
+                    "purchased_at": "2004-02-06",
+                    "purchased_by": "user_93"
+                }
+            }
+        }
+    }
+}

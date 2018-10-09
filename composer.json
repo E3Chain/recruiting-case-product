@@ -1,0 +1,29 @@
+{
+    "name": "e3chain/recruiting_product_transaction",
+    "description": "仅用于一三链招聘，未经允许，不可传播.",
+    "authors": [
+        {
+            "name": "Lei",
+            "email": "leiwgz@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "E3Chain\\Recruiting\\ProductTransaction\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "E3Chain\\Recruiting\\Tests\\ProductTransaction\\": "tests/"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "minimum-stability": "dev"
+}
