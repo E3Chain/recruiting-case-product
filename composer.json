@@ -1,10 +1,10 @@
 {
-    "name": "e3chain/recruiting_product_transaction",
+    "name": "e3chain/recruiting-case-product",
     "description": "仅用于一三链招聘，未经允许，不可传播.",
     "authors": [
         {
-            "name": "Lei",
-            "email": "leiwgz@gmail.com"
+            "name": "e3-lei",
+            "email": "e3leihro@gmail.com"
         }
     ],
     "config": {
